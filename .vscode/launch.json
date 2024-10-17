@@ -1,0 +1,11 @@
+{
+    "name": "C++ Launch",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${workspaceFolder}/*.exe",
+    "args": ["arg1", "arg2"],
+    "environment": [{ "name": "config", "value": "Debug" }],
+    "cwd": "${workspaceFolder}",
+    "justMyCode": false
+  }
+  

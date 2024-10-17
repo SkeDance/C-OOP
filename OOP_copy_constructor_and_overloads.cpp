@@ -6,6 +6,9 @@ using namespace std;
 //Перегрузка оператора равенства 
 //По умолчанию оператор равенства не реализован
 //Перегрузка оператора сложения
+//Перегрузка оператора вычитания 
+//Перегрузка оператора умножения
+//Перегрузка оператора деления
 class Point{
     private:
         int x;
@@ -48,6 +51,27 @@ class Point{
         Point temp;
         temp.x = this -> x + other.x;
         temp.y = this -> y + other.y;
+        return temp;
+    }
+    //Функция перегрузки оператора вычитания
+    Point operator - (const Point & other){
+        Point temp;
+        temp.x = this -> x - other.x;
+        temp.y = this -> y - other.y;
+        return temp;
+    }
+    //Функция перегрузки оператора умножения
+    Point operator * (const Point & other){
+        Point temp;
+        temp.x = this -> x * other.x;
+        temp.y = this -> y * other.y;
+        return temp;
+    }
+    //Функция перегрузки оператора деления
+    Point operator / (const Point & other){
+        Point temp;
+        temp.x = this -> x / other.x;
+        temp.y = this -> y / other.y;
         return temp;
     }
 
@@ -160,7 +184,12 @@ int main(){
 
     //Перегрузка оператора сложения
     Point zx = z + x;
-
+    //Перегрузка оператора вычитания
+    Point qw = z - x;
+    //Перегрузка оператора умножения 
+    Point as = z * x;
+    //Перегрузка оператора деления
+    Point rt = z / x;
 
     // MyClass c(2);//для переполнения оператора равенства
     
