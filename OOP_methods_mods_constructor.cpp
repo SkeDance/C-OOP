@@ -169,7 +169,7 @@ class Point4{
             return y;
         }
         void SetY(int y){
-            y = y;
+            this -> y = y;
         }
         void Print(){
              cout << "x = " << x << "\ny = " << y << endl << endl;
