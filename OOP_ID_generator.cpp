@@ -4,57 +4,43 @@
 using namespace std;
 
 class Person;
-class BD;
 
 class Person{
     
     public:
-        static int ID;
 
-        Person(string first_name, string second_name){
+        static int Count;
+
+        Person(int first_name, int second_name){
             this -> first_name = first_name;
             this -> second_name = second_name;
-            ID++;
+            Count++;            
+            ID = Count;
         }
         
         int GetID(){
             return ID;
         }
-        // int BD(int ID){
-        //     int* data;
-        //     data = new int[ID];
-        //     for(int i = 0; i < 4; i++){
-        //         data[i] = i;
-        //     }
-        //     return* data;
-        // }
 
     private:
-        string first_name;
-        string second_name;
+        int first_name;
+        int second_name;
+        int ID;
+
 };
 
-
-int Person::ID = 0;
+int Person::Count = 0;
 
 int main(){
 
-    Person a("Zaxar", "Skadi");
-    Person b("Ilya", "Refraction");
-    Person c("Sueta", "Redhead");
+    setlocale(LC_ALL, "ru");
+    Person a(4, 3);
+    Person b(5,6);
+    Person c(4, 3);
 
-    cout << Person::ID << endl;
-
-    int z = a.GetID();
-    cout << z;
-
-    int* data;
-    data = new int[z];
-    for(int i = 0; i < z; i++){
-        data[i] = z;
-    }
-
+    cout << a.GetID() << endl;
+    cout << b.GetID() << endl;
+    cout << c.GetID() << endl;
 
     return 0;
-    
 }
