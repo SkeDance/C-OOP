@@ -7,4 +7,5 @@
 # OOP_friend_class - проработка урока #91
 # OOP_static_fields - проработка урока #92
 # OOP_ID_generator - проработка урока #93
-# OOP_static_methods - прорабботка урока #94
+# OOP_static_methods - проработка урока #94
+# OOP_inner_class - проработка урока #95
