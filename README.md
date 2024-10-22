@@ -10,3 +10,4 @@
 # OOP_static_methods - проработка урока #94
 # OOP_inner_class - проработка урока #95
 # OOP_array_of_class_objects - проработка урока #96
+# OOP_aggregation_and_composition - проработка урока #97
