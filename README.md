@@ -12,3 +12,4 @@
 # OOP_array_of_class_objects - проработка урока #96
 # OOP_aggregation_and_composition - проработка урока #97
 # OOP_inheritance - проработка урока #98
+# OOP_modificatorts_of_class - проработка урока #99 
