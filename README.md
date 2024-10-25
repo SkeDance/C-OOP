@@ -13,3 +13,5 @@
 # OOP_aggregation_and_composition - проработка урока #97
 # OOP_inheritance - проработка урока #98
 # OOP_modificatorts_of_class - проработка урока #99 
+# OOP_order_of_calling_constructors - проработка урока #100
+# OOP_order_of_calling_destructors - проработка урока #101
