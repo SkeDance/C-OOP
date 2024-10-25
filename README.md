@@ -15,3 +15,4 @@
 # OOP_modificatorts_of_class - проработка урока #99 
 # OOP_order_of_calling_constructors - проработка урока #100
 # OOP_order_of_calling_destructors - проработка урока #101
+# OOP_calling_constructors_into_heir - проработка урока #102
