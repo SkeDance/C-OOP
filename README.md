@@ -16,4 +16,4 @@
 # OOP_order_of_calling_constructors - проработка урока #100
 # OOP_order_of_calling_destructors - проработка урока #101
 # OOP_calling_constructors_into_heir - проработка урока #102
-# OOP_virtual_methods_of_class - проработка урока #103
+# OOP_virtual_methods_of_class - проработка урока #103 - урок про полиморфизм 
