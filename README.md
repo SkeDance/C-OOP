@@ -19,3 +19,5 @@
 # OOP_virtual_methods_of_class - проработка урока #103 - урок про полиморфизм 
 # OOP_abstract_class - проработка урока #104
 # OOP_virtual_destructor_of_class - проработка урока #105
+# OOP_pure_virtual_destructor - проработка урока #106
+# OOP_delegating_constructors - проработка урока #107
