@@ -21,3 +21,4 @@
 # OOP_virtual_destructor_of_class - проработка урока #105
 # OOP_pure_virtual_destructor - проработка урока #106
 # OOP_delegating_constructors - проработка урока #107
+# OOP_virtual_methods_of_base_class - проработка урока #108
