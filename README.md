@@ -22,3 +22,7 @@
 # OOP_pure_virtual_destructor - проработка урока #106
 # OOP_delegating_constructors - проработка урока #107
 # OOP_virtual_methods_of_base_class - проработка урока #108
+# OOP_multiple_inheritance - проработка урока #109
+# OOP_calling_constructors_with_multiple_inheritance - проработка урока #110
+# OOP_calling_destructors_with_multiple_inheritance - проработка урока #111
+# OOP_multiple_inheritance_for_methods - проработка урока #112
