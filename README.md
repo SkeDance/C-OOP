@@ -26,3 +26,6 @@
 # OOP_calling_constructors_with_multiple_inheritance - проработка урока #110
 # OOP_calling_destructors_with_multiple_inheritance - проработка урока #111
 # OOP_multiple_inheritance_for_methods - проработка урока #112
+# OOP_interface - проработка урока #113
+# OOP_virtual_inheritance - проработка урока #114
+# OOP_work_with_files - проработка урока #115
