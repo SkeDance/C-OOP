@@ -29,3 +29,4 @@
 # OOP_interface - проработка урока #113
 # OOP_virtual_inheritance - проработка урока #114
 # OOP_work_with_files - проработка урока #115
+# OOP_ifstream - проработка урока #116
