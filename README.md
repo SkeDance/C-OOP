@@ -30,3 +30,4 @@
 # OOP_virtual_inheritance - проработка урока #114
 # OOP_work_with_files - проработка урока #115
 # OOP_ifstream - проработка урока #116
+# OOP_class_object_if/of stream - проработка урока #117
