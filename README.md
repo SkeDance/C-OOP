@@ -32,4 +32,4 @@
 31. OOP_ifstream - проработка урока #116
 32. OOP_class_object_if/of stream - проработка урока #117
 33. OOP_fstream - проработка урока #118
-34. OOP_fstream_input_output - проработка урока #119
+34. OOP_fstream_input_output_overload - проработка урока #119
