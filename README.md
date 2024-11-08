@@ -34,3 +34,4 @@
 33. OOP_fstream - проработка урока #118
 34. OOP_fstream_input_output_overload - проработка урока #119
 35. OOP_try_catch - проработка урока #120
+36. OOP_linear_array_search - дополнительный урок между 120 и 121
