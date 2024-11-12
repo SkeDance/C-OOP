@@ -16,7 +16,9 @@ void Foo(int data)
     if (data < 0)
     {
         // Throw позволяет передать значение в блок catch
-        throw exception(data)
+        // throw data;
+        // throw "error"
+        throw runtime_error("ERROR");
     }
     cout << "Переменная = " << data << endl;
 }
@@ -36,11 +38,13 @@ int main()
     }
 
     // Если мы используем throw для строки, то в блоке catch должны использовать указатель на char
-    // catch (const char *ex) - для "aifjajf"
+    // catch (const char *ex) - для "error"
     // catch ( const int ex) - для переменной data
-    catch (const int ex)
+    // throw runtime_error("ERROR") или throw logic_error("ERROR"); - в функцию Foo()
+    // catch (const exception &ex) - для примера на 42 строке
+    catch (const exception &ex)
     {
-        cout << "Catched " << ex.what()<< endl;
+        cout << "Catched " << ex.what() << endl;
     }
 
     return 0;
