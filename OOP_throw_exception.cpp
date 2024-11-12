@@ -16,7 +16,7 @@ void Foo(int data)
     if (data < 0)
     {
         // Throw позволяет передать значение в блок catch
-        throw data;
+        throw exception(data)
     }
     cout << "Переменная = " << data << endl;
 }
@@ -36,10 +36,11 @@ int main()
     }
 
     // Если мы используем throw для строки, то в блоке catch должны использовать указатель на char
-    // catch (const char *ex)
+    // catch (const char *ex) - для "aifjajf"
+    // catch ( const int ex) - для переменной data
     catch (const int ex)
     {
-        cout << "Catched " << ex << endl;
+        cout << "Catched " << ex.what()<< endl;
     }
 
     return 0;
