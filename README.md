@@ -38,3 +38,4 @@
 37. OOP_throw_exception - проработка урока #121
 38. OOP_several_blocks_of_catch - проработка урока #122 - разобраться с применением throw со строками и с конструктором класса exception
 39. OOP_exception_class - проработка урока #123
+40. OOP_enum - проработка урока #124
