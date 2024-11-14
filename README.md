@@ -46,3 +46,4 @@
 45. OOP_struct - проработка урока #129
 46. OOP_smart_pointers - проработка урока #130
 47. OOP_auto_unique_shared_ptrs - проработка урока #131
+48. OOP_dynamic_array_and_smart_ptrs - проработка урока #132
