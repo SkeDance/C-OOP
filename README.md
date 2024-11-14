@@ -44,3 +44,4 @@
 43. OOP_inheritance_class_template - проработка урока #127
 44. OOP_template_specialization - проработка урока #128
 45. OOP_struct - проработка урока #129
+46. OOP_smart_pointers - проработка урока #130
