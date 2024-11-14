@@ -41,3 +41,4 @@
 40. OOP_enum - проработка урока #124
 41. OOP_namespace - проработка урока #125
 42. OOP_class_template - проработка урока #126
+43. OOP_inheritance_class_template - проработка урока #127
